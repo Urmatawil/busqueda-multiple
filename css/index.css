@@ -1,0 +1,70 @@
+body {
+    background-image: linear-gradient( 109.6deg,  rgba(45,116,213,1) 11.2%, rgba(121,137,212,1) 91.2% );
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    font-size: 62.5%;
+}
+h1 {
+    font-size: 6rem;
+    padding: 3rem 0;
+    margin: 0;
+    color: #f4f4f4;
+}
+
+h2 {
+    font-size: 3rem;
+    padding: 3rem 0;
+    margin: 0;
+}
+
+.contenedor {
+    background-color:#e1e1e1;
+    width: 95%;
+    margin: 0 auto;
+    border-radius: 6px;
+}
+p {
+    font-size: 2rem;
+}
+h1, h2, p {
+    text-align: center;
+}
+form {
+    margin: 0 auto;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#app p{
+    text-align: left!important;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#resultado p {
+    margin: 0;
+    padding: 2rem;
+    border-bottom: 1px solid #f1f1f1;
+}
+#resultado p span {
+    font-weight: bold;
+}
+
+#resultado p:last-of-type{
+    border: none;
+}
+
+#resultado {
+    margin-bottom: 2em;
+}
+.alerta {
+    padding: 1rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2rem;
+}
+.error {
+    background-color: red;
+}
